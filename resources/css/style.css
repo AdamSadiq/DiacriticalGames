@@ -1,0 +1,245 @@
+a{
+  text-decoration: none;
+}
+
+/* HEADER */
+.headerholder{
+  display: flex;
+  position: fixed;
+  height: 5rem;
+  align-items: center;
+}
+
+.diacriticalproject{
+  margin-left: 24px;
+  font-size: 32px;
+  font-family: "Pacifico";
+  color: rgba(0, 0, 0, .65);
+}
+
+#diacriticalprojectmobile{
+  display: none;
+}
+
+/* HEADER */
+/* TOP */
+.topsection{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background: url("../images/Logo_placeholder.jpg");
+  background-size: cover;
+}
+
+#sundancelogo{
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  border-radius: 200px;
+}
+/* TOP */
+/* BOTTOM 1 */
+.diacriticalgames{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 24px;
+}
+
+#dgname{
+  margin-bottom: 24px;
+  font-family: "Berkshire Swash";
+  font-size: 70px;
+}
+
+#diacriticalblurb{
+  font-family: "Fira Sans";
+  font-size: 34px;
+  line-height: 1.5;
+}
+/* BOTTOM 1 */
+/* BOTTOM 2 */
+.midheadhold{
+  text-align: center;
+}
+
+#allgames{
+  width: 60%;
+  margin-left: 18%;
+}
+
+#ourgames{
+  font-size: 56px;
+  margin-top: 48px;
+}
+
+.gameexample{
+  text-align: center;
+}
+
+.gametitle{
+  font-family: "Fira Sans";
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+
+.gamepic{
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+}
+/* BOTTOM 2 */
+/* BOTTOM 3 */
+.bottom{
+  background: url("../images/bottombackground.jpg");
+  border-top: 5px solid rgba(0, 0, 0, .3);
+}
+
+.bottomholder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 78%;
+  padding-top: 48px;
+  margin-left: 10%;
+  padding-bottom: 24px;
+}
+
+.whoarewe{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 500px;
+}
+
+#meetthestaff{
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.staff{
+  display: flex;
+  flex-direction: row;
+  height: 128px;
+  margin-left: -24px;
+  font-family: "Fira Sans";
+}
+
+.staffpic{
+  height: 96px;
+  width: 96px;
+  border-radius: 100px;
+  margin-left: 24px;
+}
+
+.staffinfo{
+  width: 320px;
+}
+
+.staffblurb{
+  line-height: 1.5;
+}
+
+.staffname{
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.followus{
+  text-align: center;
+  font-size: 40px;
+}
+
+#bloglink{
+  display: flex;
+  align-items: center;
+  margin-top: 58px;
+  margin-bottom: 58px;
+  font-size: 56px;
+}
+
+#blogword{
+  background-color: blue;
+  border-radius: 200px;
+  padding: 8px 24px 12px 24px;
+  color: white;
+  box-shadow: -5px 8px 10px black;
+}
+
+/* Find out how to make the button actually look like a button */
+
+#blogword:active{
+  padding-left: -5px;
+  padding-top: 8px;
+}
+
+.facebookcon{
+  transform: rotate(-15deg);
+  margin-right: 32px;
+  margin-top: 12px;
+  color: black;
+}
+
+.twittercon{
+  transform: rotate(15deg);
+  margin-left: 24px;
+  margin-top: 12px;
+  color: black;
+}
+
+#contactus{
+  color: black;
+}
+
+.headerfont{
+  font-family: "Bungee Shade";
+}
+/* BOTTOM 3 */
+
+
+
+/* BEGIN TABLET VIEW w1024 */
+@media only screen and (max-width: 1024px){
+
+.bottomholder{
+  flex-direction: column;
+}
+
+
+
+}
+/* END TABLET VIEW w1024 */
+
+
+/* BEGIN TABLET VIEW w470 */
+@media only screen and (max-width: 470px){
+
+#diacriticalprojectdesktop{
+  display: none;
+}
+
+#diacriticalprojectmobile{
+  display: inline;
+}
+
+.topsection{
+  background-image: url("../images/GenreBack.jpg");
+  height: 200px;
+}
+
+#sundancelogo{
+  display: none;
+}
+
+#diacriticalblurb{
+  display: none;
+}
+
+
+
+}
+/* END TABLET VIEW w1024 */
