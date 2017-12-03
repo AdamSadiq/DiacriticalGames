@@ -107,6 +107,7 @@ a{
   padding-top: 48px;
   margin-left: 10%;
   padding-bottom: 24px;
+  text-align: center;
 }
 
 .whoarewe{
@@ -156,7 +157,6 @@ a{
 
 #bloglink{
   display: flex;
-  align-items: center;
   margin-top: 58px;
   margin-bottom: 58px;
   font-size: 56px;
@@ -207,15 +207,19 @@ a{
 
 .bottomholder{
   flex-direction: column;
+  display: inline-flex;
 }
 
+#bloglink{
+  text-align: center;
+}
 
 
 }
 /* END TABLET VIEW w1024 */
 
 
-/* BEGIN TABLET VIEW w470 */
+/* BEGIN MOBILE VIEW w470 */
 @media only screen and (max-width: 470px){
 
 #diacriticalprojectdesktop{
@@ -235,11 +239,25 @@ a{
   display: none;
 }
 
+#dgname{
+  margin-right: 5%;
+}
+
 #diacriticalblurb{
   display: none;
 }
 
+#ourgames{
+  font-size: 48px;
+}
 
+.gameexample{
+  margin-bottom: 24px;
+}
+
+.whoarewe{
+  width: 100%;
+}
 
 }
-/* END TABLET VIEW w1024 */
+/* END MOBILE VIEW w470 */
